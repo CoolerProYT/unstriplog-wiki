@@ -20,5 +20,5 @@ Unstrip Log can be downloaded on CurseForge and Modrinth.
 
 
 ::: warning
-1.21.1 will no longer be maintained if no big issue are found in 2 weeks time from release of `v1.1.0`
+1.21.1 will no longer be maintained if no major issues are found within 2 weeks of the release of `v1.1.0`.
 :::
