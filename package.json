@@ -6,6 +6,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "deploy": "npm run docs:build && cd docs && cd .vitepress && cd dist && git add -A && git commit -m \"Deploy dist\" && git push --set-upstream origin unstriplog"
   }
 }
